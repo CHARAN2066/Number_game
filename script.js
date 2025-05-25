@@ -26,7 +26,7 @@ function check_number_of_questions() {
     else
     {
         localStorage.setItem("total_questions",num);
-        window.location.href ="index.html";
+        window.location.href ="game.html";
     }
 }
 function create_number(digits) {
