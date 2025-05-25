@@ -1,0 +1,38 @@
+body{
+    background-image:url(https://media.istockphoto.com/id/1317273472/vector/numbers-fade.jpg?s=612x612&w=0&k=20&c=RjZpjMHAF-kAfTOwqjp11DkB60UUGjqAOz2ha0tDsac=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+ul{
+    list-style-position: inside;
+    /* text-align: center; */
+    font-size: 30px;
+    font-family: cursive;
+    color: darkblue;
+}
+#input_box{
+  padding-right: 0px;
+  bottom: 5px;
+  border: 2px gray solid;
+  border-radius: 4px;
+  background-color: white;
+}
+#input_of_questions{
+  background-color: white;
+  text-align: center;
+  position: relative;
+  border: 2px solid ;
+  border-radius: 15px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-left: 1px;
+}
+#start{
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}

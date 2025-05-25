@@ -1,0 +1,85 @@
+body{
+    background-image: url(quiz_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+#clock{
+    position: relative;
+    top: 450px;
+    left: 420px;
+    height: 150px;
+    width: 150px;
+    background-image: url(clock.jpg);
+    background-size: cover;
+}
+#answer{
+    padding-right: 40px;
+    position: relative;
+    left: 55px;
+    visibility: hidden;
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 300px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+#question{
+    padding-top: 40px;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 100px;
+}
+#game{
+    position: relative;
+    top: 120px;
+    left: 400px;
+    border-radius: 7px;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+#next{
+    position: relative;
+    top: 50px;
+    right: 130px;
+    border: 2px black solid;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(24, 148, 201);
+    visibility: hidden;
+}
+#time{
+    color: black;
+    font-size: 30px;
+    font-family:sans-serif;
+    position: relative;
+    top: 45%;
+    left: 45%;
+    font-weight: 600;
+}
+#box{
+    position: relative;
+    left: 300px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    /* text-align: center; */
+    align-items: center;
+    border-radius: 25px;
+}
+#Correct_answers{
+    position: relative;
+    top: -80px;
+    left: 90px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+}

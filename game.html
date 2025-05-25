@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Number Game</title>
+        <link rel="stylesheet" href="game.css">
+        <link rel="icon" href="dice.png">
+    </head>
+    <body>
+        <button id="game" onclick="starting()">Click here to start</button>
+        <div id="clock">
+            <div id="time"></div>
+        </div>
+        <div id="box">
+            <p id="question"></p>
+            <input type="number" id="answer" placeholder="Type your answer here">
+            <button id="next" onclick="check()">Save</button>
+            <p id="Correct_answers"></p>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
